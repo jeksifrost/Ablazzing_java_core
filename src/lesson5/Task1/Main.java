@@ -11,9 +11,9 @@ public class Main {
         Car[] cars = new Car[40];
         for (int i = 0; i < 40; i++) {
             if (i < 20) {
-                cars[i] = new Toyota();
+                cars[i] = CarFactory.makeJiguli();
             } else {
-                cars[i] = new Jiguli();
+                cars[i] = CarFactory.makeJiguli();
             }
         }
 
